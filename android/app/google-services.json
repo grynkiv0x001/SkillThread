@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99360792489",
+    "project_id": "skillthread-559cd",
+    "storage_bucket": "skillthread-559cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99360792489:android:a6f7114167e18e9a9faeb8",
+        "android_client_info": {
+          "package_name": "com.vntu.skill_thread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99360792489-2ortju0jri93vih7c050c27g7gb15ckk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc6Z9uva1fFp0hZVl7U9LSCeCy7Mzu4Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99360792489-2ortju0jri93vih7c050c27g7gb15ckk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
