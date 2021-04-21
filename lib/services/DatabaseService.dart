@@ -19,7 +19,7 @@ class DatabaseService {
 
 		return await userCollection.document(uid).setData({
 
-			'name': name,
+			'displayName': name,
 			'liked': likedArticles,
 			'recent': recentArticles,
 			'favoriteThread': favorite

@@ -10,7 +10,7 @@ class AuthService {
 
 	// Create user using received data from Firebase
 	User _newUserFromDB(FirebaseUser user) {
-		return user != null ? User(uid: user.uid, email: user.email) : null;
+		return user != null ? User(uid: user.uid, name: user.displayName, email: user.email) : null;
 	}
 
 	// Create auth stream of user object

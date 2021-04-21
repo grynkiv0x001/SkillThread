@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'package:skill_thread/models/User.dart';
-import 'package:skill_thread/screens/ScreenSwitcher.dart';
+import 'package:skill_thread/screens/home/Home.dart';
 import 'package:skill_thread/screens/auth/Authenticate.dart';
+
+// The ScreenSwitcher was used for bottom navigation (triple-screen model). Right now - no longer useful
+// import 'package:skill_thread/screens/ScreenSwitcher.dart';
 
 
 class Wrapper extends StatelessWidget {
@@ -17,6 +20,6 @@ class Wrapper extends StatelessWidget {
 		if (user == null)
 			return Authenticate();
 		else
-			return ScreenSwitcher();
+			return Home();
 	}
 }

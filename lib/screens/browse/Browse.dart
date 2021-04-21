@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+/*
+* TODO: DELETE CLASS  
+* Temporary class, I'm not sure I'll be using this screen later 
+* 
+*/
+
 
 class Browse extends StatefulWidget {
 
